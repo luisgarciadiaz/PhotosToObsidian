@@ -33,28 +33,22 @@ _log_file = Path(__file__).resolve().parent.parent / "photos_to_obsidian.log"
 logger = logging.getLogger(__name__)
 
 
+import sv_ttk
+
 def _setup_style() -> None:
+    sv_ttk.set_theme("dark")
+    
     s = ttk.Style()
-    try:
-        s.theme_use("clam")
-    except Exception:
-        pass
-
-    s.configure("Run.TButton", padding=(14, 6), font=("Segoe UI", 9, "bold"))
+    # Adjusting our custom styles to blend with sv_ttk
     s.configure("Action.TButton", padding=(10, 4))
-
-    s.map(
-        "Run.TButton",
-        background=[("active", "#217346"), ("!active", "#107c10")],
-        foreground=[("!active", "white"), ("active", "white")],
-    )
+    
+    # Run uses the native Accent style from sv_ttk
+    s.configure("Stop.TButton", padding=(14, 6), font=("Segoe UI", 9, "bold"))
     s.map(
         "Stop.TButton",
         background=[("active", "#c62828"), ("!active", "#d32f2f")],
         foreground=[("!active", "white"), ("active", "white")],
     )
-
-
 def _row(parent, label_text: str, row: int):
     lbl = Label(parent, text=label_text, font=("Segoe UI", 9), anchor="w", width=16)
     lbl.pack(in_=parent, side="left", padx=(0, 4), pady=3)
@@ -339,7 +333,7 @@ class GUI:
         toolbar.pack(side="right", padx=8, pady=4)
 
         self.run_btn = ttk.Button(
-            toolbar, text="▶  Run", style="Run.TButton", command=self._on_run
+            toolbar, text="▶  Run", style="Accent.TButton", command=self._on_run
         )
         self.run_btn.pack(side="left", padx=(0, 4))
 

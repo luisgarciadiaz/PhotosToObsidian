@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
@@ -42,37 +42,54 @@ def load_config(config_path: Optional[Path] = None) -> Config:
     with open(config_path, "rb") as f:
         data = tomllib.load(f)
 
-    if "paths" in data:
-        paths = data["paths"]
-        if "source_folder" in paths:
-            config.source_folder = Path(paths["source_folder"])
-        if "obsidian_vault" in paths:
-            config.obsidian_vault = Path(paths["obsidian_vault"])
-
-    if "ocr" in data:
-        ocr = data["ocr"]
-        if "language" in ocr:
-            config.ocr_language = ocr["language"]
-        if "confidence_threshold" in ocr:
-            config.ocr_confidence_threshold = ocr["confidence_threshold"]
-
-    if "note" in data:
-        note_section = data["note"]
-        if "tag" in note_section:
-            config.note_tag = note_section["tag"]
-        if "date_format" in note_section:
-            config.note_date_format = note_section["date_format"]
-
-    if "ollama" in data:
-        ollama = data["ollama"]
-        if "model" in ollama:
-            config.ollama_model = ollama["model"]
-        if "base_url" in ollama:
-            config.ollama_base_url = ollama["base_url"]
-        if "timeout" in ollama:
-            config.ollama_timeout = ollama["timeout"]
+    _load_paths(config, data)
+    _load_ocr(config, data)
+    _load_note(config, data)
+    _load_ollama(config, data)
 
     return config
+
+
+def _load_paths(config: Config, data: dict) -> None:
+    if "paths" not in data:
+        return
+    paths = data["paths"]
+    if "source_folder" in paths:
+        config.source_folder = Path(paths["source_folder"])
+    if "obsidian_vault" in paths:
+        config.obsidian_vault = Path(paths["obsidian_vault"])
+
+
+def _load_ocr(config: Config, data: dict) -> None:
+    if "ocr" not in data:
+        return
+    ocr = data["ocr"]
+    if "language" in ocr:
+        config.ocr_language = ocr["language"]
+    if "confidence_threshold" in ocr:
+        config.ocr_confidence_threshold = ocr["confidence_threshold"]
+
+
+def _load_note(config: Config, data: dict) -> None:
+    if "note" not in data:
+        return
+    note = data["note"]
+    if "tag" in note:
+        config.note_tag = note["tag"]
+    if "date_format" in note:
+        config.note_date_format = note["date_format"]
+
+
+def _load_ollama(config: Config, data: dict) -> None:
+    if "ollama" not in data:
+        return
+    ollama = data["ollama"]
+    if "model" in ollama:
+        config.ollama_model = ollama["model"]
+    if "base_url" in ollama:
+        config.ollama_base_url = ollama["base_url"]
+    if "timeout" in ollama:
+        config.ollama_timeout = ollama["timeout"]
 
 
 def save_config(config: Config, config_path: Optional[Path] = None) -> None:
