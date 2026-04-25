@@ -1,20 +1,17 @@
 [paths]
-# Folder to scan for images
-source_folder   = "C:/Users/you/Pictures/ToProcess"
-# Obsidian vault inbox folder where .md files will be written
-obsidian_vault  = "C:/Users/you/ObsidianVault/Inbox"
+source_folder = "G:\\My Drive\\03_Knowledge\\Process"
+obsidian_vault = "G:\\My Drive\\07_Notes\\[15]Obsidian\\5. InfoFromInternet"
 
 [ocr]
-engine                  = "tesseract"   # "tesseract" only for now; cloud stubs reserved
-language                = "eng"         # Tesseract language code(s), e.g. "eng+spa"
-confidence_threshold    = 30            # Mean word confidence % below which OCR is considered failed
+language = "eng+spa"
+confidence_threshold = 30
 
 [note]
-tag         = "photo-import"
-embed_image = true          # Embed ![[filename]] in the note body
+tag = "photo-import"
+embed_image = true
 date_format = "%Y-%m-%d"
 
 [ollama]
-model    = "llava"                      # Any locally installed vision-capable model
+model = "gemma4"
 base_url = "http://localhost:11434"
-timeout  = 60                           # Seconds to wait for a response
+timeout = 60

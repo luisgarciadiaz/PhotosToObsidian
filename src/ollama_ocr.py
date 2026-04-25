@@ -100,6 +100,23 @@ def get_available_models(
     try:
         data = response.json()
         models = data.get("models", [])
-        return [m.get("name", "").split(":")[0] for m in models if m.get("name")]
+        names = [m.get("name", "").split(":")[0] for m in models if m.get("name")]
     except Exception:
         return []
+
+    image_probe = base64.b64encode(b"\x89PNG\r\n\x1a\n").decode()
+
+    vision = []
+    for name in names:
+        try:
+            resp = requests.post(
+                f"{base_url}/api/generate",
+                json={"model": name, "prompt": "is this an image?", "images": [image_probe], "stream": False},
+                timeout=timeout,
+            )
+            if resp.status_code != 400:
+                vision.append(name)
+        except requests.exceptions.RequestException:
+            pass
+
+    return vision

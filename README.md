@@ -42,7 +42,21 @@ pip install -r requirements.txt
 # 4. Install Tesseract (Windows)
 # Download and run the installer from:
 # https://github.com/UB-Mannheim/tesseract/wiki
-# Make sure "tesseract" is on your PATH after installation.
+# By default it installs to C:\Program Files\Tesseract-OCR\
+# Add it to PATH with PowerShell (run as Admin if needed):
+
+# TEMPORARY (current session only):
+$env:PATH += ";C:\Program Files\Tesseract-OCR"
+
+# PERMANENT (adds to User PATH):
+[Environment]::SetEnvironmentVariable(
+    "PATH",
+    [Environment]::GetEnvironmentVariable("PATH", "User") + ";C:\Program Files\Tesseract-OCR",
+    "User"
+)
+
+# Verify:
+tesseract --version
 ```
 
 ---

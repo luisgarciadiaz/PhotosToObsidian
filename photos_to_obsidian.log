@@ -1,0 +1,292 @@
+2026-04-25 12:33:13,282 INFO Found 380 image(s) to process.
+2026-04-25 12:33:13,282 INFO Processing: IMG_4132.PNG
+2026-04-25 12:33:13,282 INFO   Try #1
+2026-04-25 12:33:13,283 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:13,289 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,289 INFO     Traceback (most recent call last):
+2026-04-25 12:33:13,290 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:13,300 INFO         result = ocr.extract(
+2026-04-25 12:33:13,301 INFO             image_path,
+2026-04-25 12:33:13,302 INFO             language=self.ocr_language,
+2026-04-25 12:33:13,303 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:13,304 INFO         )
+2026-04-25 12:33:13,304 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:13,305 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:13,305 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:13,306 INFO         )
+2026-04-25 12:33:13,307 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,308 INFO   OCR failed (tesseract)
+2026-04-25 12:33:13,556 INFO Processing: IMG_4133.PNG
+2026-04-25 12:33:13,557 INFO   Try #1
+2026-04-25 12:33:13,558 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:13,565 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,566 INFO     Traceback (most recent call last):
+2026-04-25 12:33:13,566 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:13,567 INFO         result = ocr.extract(
+2026-04-25 12:33:13,568 INFO             image_path,
+2026-04-25 12:33:13,569 INFO             language=self.ocr_language,
+2026-04-25 12:33:13,569 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:13,570 INFO         )
+2026-04-25 12:33:13,572 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:13,573 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:13,574 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:13,574 INFO         )
+2026-04-25 12:33:13,575 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,576 INFO   OCR failed (tesseract)
+2026-04-25 12:33:13,812 INFO Processing: IMG_4134.PNG
+2026-04-25 12:33:13,812 INFO   Try #1
+2026-04-25 12:33:13,813 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:13,820 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,820 INFO     Traceback (most recent call last):
+2026-04-25 12:33:13,822 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:13,822 INFO         result = ocr.extract(
+2026-04-25 12:33:13,823 INFO             image_path,
+2026-04-25 12:33:13,824 INFO             language=self.ocr_language,
+2026-04-25 12:33:13,824 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:13,825 INFO         )
+2026-04-25 12:33:13,828 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:13,828 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:13,829 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:13,830 INFO         )
+2026-04-25 12:33:13,830 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:13,831 INFO   OCR failed (tesseract)
+2026-04-25 12:33:14,042 INFO Processing: IMG_4135.PNG
+2026-04-25 12:33:14,043 INFO   Try #1
+2026-04-25 12:33:14,044 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:14,051 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,052 INFO     Traceback (most recent call last):
+2026-04-25 12:33:14,053 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:14,054 INFO         result = ocr.extract(
+2026-04-25 12:33:14,055 INFO             image_path,
+2026-04-25 12:33:14,056 INFO             language=self.ocr_language,
+2026-04-25 12:33:14,057 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:14,058 INFO         )
+2026-04-25 12:33:14,058 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:14,059 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:14,061 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:14,062 INFO         )
+2026-04-25 12:33:14,062 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,063 INFO   OCR failed (tesseract)
+2026-04-25 12:33:14,312 INFO Processing: IMG_4136.PNG
+2026-04-25 12:33:14,312 INFO   Try #1
+2026-04-25 12:33:14,313 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:14,320 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,320 INFO     Traceback (most recent call last):
+2026-04-25 12:33:14,322 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:14,323 INFO         result = ocr.extract(
+2026-04-25 12:33:14,323 INFO             image_path,
+2026-04-25 12:33:14,324 INFO             language=self.ocr_language,
+2026-04-25 12:33:14,325 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:14,325 INFO         )
+2026-04-25 12:33:14,326 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:14,327 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:14,327 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:14,328 INFO         )
+2026-04-25 12:33:14,329 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,330 INFO   OCR failed (tesseract)
+2026-04-25 12:33:14,573 INFO Processing: IMG_4137.PNG
+2026-04-25 12:33:14,575 INFO   Try #1
+2026-04-25 12:33:14,575 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:14,584 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,584 INFO     Traceback (most recent call last):
+2026-04-25 12:33:14,585 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:14,586 INFO         result = ocr.extract(
+2026-04-25 12:33:14,588 INFO             image_path,
+2026-04-25 12:33:14,589 INFO             language=self.ocr_language,
+2026-04-25 12:33:14,590 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:14,591 INFO         )
+2026-04-25 12:33:14,592 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:14,593 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:14,595 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:14,596 INFO         )
+2026-04-25 12:33:14,597 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:14,598 INFO   OCR failed (tesseract)
+2026-04-25 12:33:15,023 INFO Processing: IMG_4138.PNG
+2026-04-25 12:33:15,024 INFO   Try #1
+2026-04-25 12:33:15,025 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:15,032 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,032 INFO     Traceback (most recent call last):
+2026-04-25 12:33:15,033 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:15,034 INFO         result = ocr.extract(
+2026-04-25 12:33:15,035 INFO             image_path,
+2026-04-25 12:33:15,036 INFO             language=self.ocr_language,
+2026-04-25 12:33:15,036 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:15,037 INFO         )
+2026-04-25 12:33:15,038 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:15,039 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:15,040 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:15,041 INFO         )
+2026-04-25 12:33:15,042 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,043 INFO   OCR failed (tesseract)
+2026-04-25 12:33:15,570 INFO Processing: IMG_4139.PNG
+2026-04-25 12:33:15,571 INFO   Try #1
+2026-04-25 12:33:15,573 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:15,580 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,580 INFO     Traceback (most recent call last):
+2026-04-25 12:33:15,581 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:15,582 INFO         result = ocr.extract(
+2026-04-25 12:33:15,583 INFO             image_path,
+2026-04-25 12:33:15,584 INFO             language=self.ocr_language,
+2026-04-25 12:33:15,585 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:15,585 INFO         )
+2026-04-25 12:33:15,586 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:15,587 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:15,587 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:15,588 INFO         )
+2026-04-25 12:33:15,589 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,590 INFO   OCR failed (tesseract)
+2026-04-25 12:33:15,831 INFO Processing: IMG_4140.PNG
+2026-04-25 12:33:15,832 INFO   Try #1
+2026-04-25 12:33:15,832 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:15,840 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,840 INFO     Traceback (most recent call last):
+2026-04-25 12:33:15,841 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:15,841 INFO         result = ocr.extract(
+2026-04-25 12:33:15,843 INFO             image_path,
+2026-04-25 12:33:15,844 INFO             language=self.ocr_language,
+2026-04-25 12:33:15,845 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:15,846 INFO         )
+2026-04-25 12:33:15,846 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:15,847 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:15,847 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:15,848 INFO         )
+2026-04-25 12:33:15,848 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:15,849 INFO   OCR failed (tesseract)
+2026-04-25 12:33:16,169 INFO Processing: IMG_4141.PNG
+2026-04-25 12:33:16,169 INFO   Try #1
+2026-04-25 12:33:16,170 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:16,178 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:16,178 INFO     Traceback (most recent call last):
+2026-04-25 12:33:16,178 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:16,179 INFO         result = ocr.extract(
+2026-04-25 12:33:16,180 INFO             image_path,
+2026-04-25 12:33:16,182 INFO             language=self.ocr_language,
+2026-04-25 12:33:16,182 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:16,183 INFO         )
+2026-04-25 12:33:16,184 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:16,184 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:16,185 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:16,186 INFO         )
+2026-04-25 12:33:16,187 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:16,187 INFO   OCR failed (tesseract)
+2026-04-25 12:33:16,809 INFO Processing: IMG_4142.PNG
+2026-04-25 12:33:16,811 INFO   Try #1
+2026-04-25 12:33:16,811 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:33:16,817 INFO   [ocr.extract] TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:16,817 INFO     Traceback (most recent call last):
+2026-04-25 12:33:16,818 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 113, in run
+2026-04-25 12:33:16,819 INFO         result = ocr.extract(
+2026-04-25 12:33:16,820 INFO             image_path,
+2026-04-25 12:33:16,821 INFO             language=self.ocr_language,
+2026-04-25 12:33:16,823 INFO             confidence_threshold=self.ocr_confidence_threshold,
+2026-04-25 12:33:16,823 INFO         )
+2026-04-25 12:33:16,823 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\ocr.py", line 34, in extract
+2026-04-25 12:33:16,824 INFO         raise TesseractNotFoundError(
+2026-04-25 12:33:16,825 INFO             "Tesseract binary not found. Please install Tesseract and add it to PATH."
+2026-04-25 12:33:16,826 INFO         )
+2026-04-25 12:33:16,827 INFO     src.ocr.TesseractNotFoundError: Tesseract binary not found. Please install Tesseract and add it to PATH.
+2026-04-25 12:33:16,828 INFO   OCR failed (tesseract)
+2026-04-25 12:33:17,076 INFO Processing stopped by user.
+2026-04-25 12:33:17,076 INFO Done. Processed=0, Failed=11, Skipped=369
+2026-04-25 12:34:36,973 INFO Found 380 image(s) to process.
+2026-04-25 12:34:36,974 INFO Processing: IMG_4132.PNG
+2026-04-25 12:34:36,976 INFO   Try #2
+2026-04-25 12:34:36,976 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:37,158 INFO   OCR failed (tesseract)
+2026-04-25 12:34:37,297 INFO Processing: IMG_4133.PNG
+2026-04-25 12:34:37,297 INFO   Try #2
+2026-04-25 12:34:37,298 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:37,331 INFO   OCR failed (tesseract)
+2026-04-25 12:34:37,452 INFO Processing: IMG_4134.PNG
+2026-04-25 12:34:37,453 INFO   Try #2
+2026-04-25 12:34:37,454 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:37,506 INFO   OCR failed (tesseract)
+2026-04-25 12:34:37,630 INFO Processing: IMG_4135.PNG
+2026-04-25 12:34:37,631 INFO   Try #2
+2026-04-25 12:34:37,631 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:37,705 INFO   OCR failed (tesseract)
+2026-04-25 12:34:37,830 INFO Processing: IMG_4136.PNG
+2026-04-25 12:34:37,831 INFO   Try #2
+2026-04-25 12:34:37,832 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:38,536 INFO   OCR failed (tesseract)
+2026-04-25 12:34:39,317 INFO Processing: IMG_4137.PNG
+2026-04-25 12:34:39,318 INFO   Try #2
+2026-04-25 12:34:39,318 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:34:39,361 INFO   OCR failed (tesseract)
+2026-04-25 12:34:40,210 INFO Processing stopped by user.
+2026-04-25 12:34:40,210 INFO Done. Processed=0, Failed=6, Skipped=374
+2026-04-25 12:45:19,164 INFO Found 380 image(s) to process.
+2026-04-25 12:45:19,165 INFO Processing: IMG_4132.PNG
+2026-04-25 12:45:19,166 INFO   Try #3
+2026-04-25 12:45:19,171 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:19,325 INFO   OCR failed (ollama)
+2026-04-25 12:45:19,556 INFO Processing: IMG_4133.PNG
+2026-04-25 12:45:19,557 INFO   Try #3
+2026-04-25 12:45:19,562 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:19,720 INFO   OCR failed (ollama)
+2026-04-25 12:45:19,834 INFO Processing: IMG_4134.PNG
+2026-04-25 12:45:19,834 INFO   Try #3
+2026-04-25 12:45:19,840 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:20,092 INFO   OCR failed (ollama)
+2026-04-25 12:45:20,245 INFO Processing: IMG_4135.PNG
+2026-04-25 12:45:20,245 INFO   Try #3
+2026-04-25 12:45:20,251 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:20,415 INFO   OCR failed (ollama)
+2026-04-25 12:45:20,523 INFO Processing: IMG_4136.PNG
+2026-04-25 12:45:20,523 INFO   Try #3
+2026-04-25 12:45:20,528 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:20,703 INFO   OCR failed (ollama)
+2026-04-25 12:45:20,845 INFO Processing: IMG_4137.PNG
+2026-04-25 12:45:20,846 INFO   Try #3
+2026-04-25 12:45:20,851 INFO   Engine: Ollama (gemma4)
+2026-04-25 12:45:21,048 INFO   OCR failed (ollama)
+2026-04-25 12:45:21,189 INFO Processing: IMG_4138.PNG
+2026-04-25 12:45:21,190 INFO   Try #2
+2026-04-25 12:45:21,190 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:23,274 INFO   OCR succeeded (conf=84.9)
+2026-04-25 12:45:23,434 INFO   Note: 2026-04-25_IMG_4138.md
+2026-04-25 12:45:23,434 INFO   Renamed: IMG_4138.PNG.tobedeleted
+2026-04-25 12:45:23,435 INFO Processing: IMG_4139.PNG
+2026-04-25 12:45:23,436 INFO   Try #2
+2026-04-25 12:45:23,437 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:25,295 INFO   OCR succeeded (conf=88.1)
+2026-04-25 12:45:25,551 INFO   Note: 2026-04-25_IMG_4139.md
+2026-04-25 12:45:25,552 INFO   Renamed: IMG_4139.PNG.tobedeleted
+2026-04-25 12:45:25,553 INFO Processing: IMG_4140.PNG
+2026-04-25 12:45:25,555 INFO   Try #2
+2026-04-25 12:45:25,556 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:27,407 INFO   OCR succeeded (conf=86.1)
+2026-04-25 12:45:27,567 INFO   Note: 2026-04-25_IMG_4140.md
+2026-04-25 12:45:27,567 INFO   Renamed: IMG_4140.PNG.tobedeleted
+2026-04-25 12:45:27,568 INFO Processing: IMG_4141.PNG
+2026-04-25 12:45:27,569 INFO   Try #2
+2026-04-25 12:45:27,569 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:29,474 INFO   OCR succeeded (conf=86.7)
+2026-04-25 12:45:29,768 INFO   Note: 2026-04-25_IMG_4141.md
+2026-04-25 12:45:29,768 INFO   Renamed: IMG_4141.PNG.tobedeleted
+2026-04-25 12:45:29,768 INFO Processing: IMG_4142.PNG
+2026-04-25 12:45:29,770 INFO   Try #2
+2026-04-25 12:45:29,771 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:32,127 INFO   OCR succeeded (conf=83.8)
+2026-04-25 12:45:32,289 INFO   Note: 2026-04-25_IMG_4142.md
+2026-04-25 12:45:32,289 INFO   Renamed: IMG_4142.PNG.tobedeleted
+2026-04-25 12:45:32,291 INFO Processing: IMG_4143.PNG
+2026-04-25 12:45:32,292 INFO   Try #1
+2026-04-25 12:45:32,293 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:34,481 INFO   OCR succeeded (conf=83.0)
+2026-04-25 12:45:34,744 INFO   Note: 2026-04-25_IMG_4143.md
+2026-04-25 12:45:34,745 INFO   Renamed: IMG_4143.PNG.tobedeleted
+2026-04-25 12:45:34,746 INFO Processing: IMG_4144.PNG
+2026-04-25 12:45:34,746 INFO   Try #1
+2026-04-25 12:45:34,747 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:36,235 INFO   OCR succeeded (conf=88.7)
+2026-04-25 12:45:36,355 INFO   Note: 2026-04-25_IMG_4144.md
+2026-04-25 12:45:36,356 INFO   Renamed: IMG_4144.PNG.tobedeleted
+2026-04-25 12:45:36,356 INFO Processing: IMG_4149.PNG
+2026-04-25 12:45:36,357 INFO   Try #1
+2026-04-25 12:45:36,358 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 12:45:38,074 INFO   OCR succeeded (conf=76.9)
+2026-04-25 12:45:38,345 INFO   Note: 2026-04-25_IMG_4149.md
+2026-04-25 12:45:38,345 INFO   Renamed: IMG_4149.PNG.tobedeleted
+2026-04-25 12:45:38,345 INFO Processing stopped by user.
+2026-04-25 12:45:38,346 INFO Done. Processed=8, Failed=6, Skipped=366
