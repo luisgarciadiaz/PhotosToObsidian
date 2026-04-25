@@ -290,3 +290,7 @@
 2026-04-25 12:45:38,345 INFO   Renamed: IMG_4149.PNG.tobedeleted
 2026-04-25 12:45:38,345 INFO Processing stopped by user.
 2026-04-25 12:45:38,346 INFO Done. Processed=8, Failed=6, Skipped=366
+2026-04-25 13:04:12,936 INFO Found 372 image(s) to process.
+2026-04-25 13:04:12,937 INFO Processing: IMG_4132.PNG
+2026-04-25 13:04:12,937 INFO   Try #4
+2026-04-25 13:04:12,943 INFO   Engine: Ollama (llava)

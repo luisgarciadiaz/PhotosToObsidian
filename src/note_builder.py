@@ -12,7 +12,6 @@ def write_note(
     ocr_result: OCRResult,
     obsidian_vault: Path,
     tag: str = "photo-import",
-    embed_image: bool = True,
     date_format: str = "%Y-%m-%d",
 ) -> Optional[Path]:
     if not obsidian_vault.exists():
@@ -47,15 +46,10 @@ def write_note(
         "",
         f"# {stem}",
         "",
+        "## Extracted Text",
+        "",
+        ocr_result.text,
     ]
-
-    if embed_image:
-        content_lines.append(f"![[{image_name}]]")
-        content_lines.append("")
-
-    content_lines.append("## Extracted Text")
-    content_lines.append("")
-    content_lines.append(ocr_result.text)
 
     content = "\n".join(content_lines)
 

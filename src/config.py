@@ -20,7 +20,6 @@ class Config:
     ocr_language: str = "eng"
     ocr_confidence_threshold: int = 30
     note_tag: str = "photo-import"
-    note_embed_image: bool = True
     note_date_format: str = "%Y-%m-%d"
     ollama_model: str = "llava"
     ollama_base_url: str = "http://localhost:11434"
@@ -58,13 +57,11 @@ def load_config(config_path: Optional[Path] = None) -> Config:
             config.ocr_confidence_threshold = ocr["confidence_threshold"]
 
     if "note" in data:
-        note = data["note"]
-        if "tag" in note:
-            config.note_tag = note["tag"]
-        if "embed_image" in note:
-            config.note_embed_image = note["embed_image"]
-        if "date_format" in note:
-            config.note_date_format = note["date_format"]
+        note_section = data["note"]
+        if "tag" in note_section:
+            config.note_tag = note_section["tag"]
+        if "date_format" in note_section:
+            config.note_date_format = note_section["date_format"]
 
     if "ollama" in data:
         ollama = data["ollama"]
@@ -93,7 +90,6 @@ def save_config(config: Config, config_path: Optional[Path] = None) -> None:
         },
         "note": {
             "tag": config.note_tag,
-            "embed_image": config.note_embed_image,
             "date_format": config.note_date_format,
         },
         "ollama": {
