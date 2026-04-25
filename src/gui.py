@@ -133,6 +133,19 @@ class SettingsTab(ttk.Frame):
             side="left", padx=(6, 0)
         )
 
+        ttk.Label(col, text="Note Tag", font=("Segoe UI", 9, "bold")).pack(
+            anchor="w", pady=(8, 0)
+        )
+        tag_row = ttk.Frame(col)
+        tag_row.pack(fill="x", pady=2)
+        gui.note_tag_var = StringVar()
+        ttk.Entry(
+            tag_row, textvariable=gui.note_tag_var, width=19, font=("Segoe UI", 9)
+        ).pack(side="left")
+        ttk.Label(tag_row, text='e.g. "photo-import"', font=("Segoe UI", 8), foreground="#888").pack(
+            side="left", padx=(6, 0)
+        )
+
         ttk.Separator(col, orient="horizontal").pack(fill="x", pady=(8, 0))
         ttk.Button(
             col,
@@ -299,6 +312,8 @@ class GUI:
     def __init__(self):
         self.root = Tk()
         self.root.title(f"PhotosToObsidian v{__version__}")
+        self.root.geometry("850x650")
+        self.root.minsize(800, 600)
 
         _setup_style()
         style = ttk.Style()
@@ -374,12 +389,27 @@ class GUI:
         self._populate_from_config()
         self._refresh_history()
         self._check_ollama_status()
+        
+        # Bind events for live preview
+        self.note_tag_var.trace_add("write", self._update_preview)
+        self.obsidian_vault_var.trace_add("write", self._update_preview)
+        self._update_preview()
+
+    def _update_preview(self, *args) -> None:
+        tag = self.note_tag_var.get()
+        md = f"---\ntags: [{tag}]\ndate: 2026-04-25\nsource_image: sample.jpg\nocr_confidence: 92.5\nocr_engine: tesseract\n---\n\n# sample\n\n![[sample.jpg]]\n\n## Extracted Text\n\nThis is a live preview of the extracted text..."
+        
+        self.preview_text.configure(state="normal")
+        self.preview_text.delete("1.0", "end")
+        self.preview_text.insert("end", md)
+        self.preview_text.configure(state="disabled")
 
     def _populate_from_config(self) -> None:
         self.source_folder_var.set(str(self.cfg.source_folder))
         self.obsidian_vault_var.set(str(self.cfg.obsidian_vault))
         self.ocr_language_var.set(self.cfg.ocr_language)
         self.confidence_var.set(str(self.cfg.ocr_confidence_threshold))
+        self.note_tag_var.set(str(self.cfg.note_tag))
         self.ollama_base_url_var.set(self.cfg.ollama_base_url)
         self.ollama_model_var.set(self.cfg.ollama_model)
         self.ollama_timeout_var.set(str(self.cfg.ollama_timeout))
@@ -400,6 +430,7 @@ class GUI:
             self.cfg.obsidian_vault = Path(self.obsidian_vault_var.get())
             self.cfg.ocr_language = self.ocr_language_var.get()
             self.cfg.ocr_confidence_threshold = int(self.confidence_var.get())
+            self.cfg.note_tag = self.note_tag_var.get()
 
             config.save_config(self.cfg)
             self._log("Settings saved.")

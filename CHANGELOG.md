@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-04-25
+
+### Added
+- `ocr_confidence` column in database and history table.
+- DB migration to add missing columns automatically.
+- `cleanup.py` script to restore `.tobedeleted` images for reprocessing.
+
+### Changed
+- Removed `embed_image` option — images are deleted after processing, so embedding is useless.
+- Ollama vision model detection now uses `"clip"` family from API instead of probing (faster, more reliable).
+
+### Fixed
+- Fixed INSERT statement with wrong number of placeholders — confidence now saves correctly.
+
 ## [0.1.0] - 2026-04-25
 
 ### Added
