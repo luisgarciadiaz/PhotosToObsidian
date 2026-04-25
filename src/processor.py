@@ -149,6 +149,7 @@ class Processor:
                             status="success",
                             engine=result.engine,
                             note_path=note_path,
+                            ocr_confidence=result.confidence,
                         )
                     except Exception as e:
                         self._trace("db.upsert_attempt", e)
@@ -163,6 +164,7 @@ class Processor:
                             image_path,
                             status="failed",
                             engine=result.engine,
+                            ocr_confidence=result.confidence,
                         )
                     except Exception as e:
                         self._trace("db.upsert_attempt", e)
@@ -176,6 +178,7 @@ class Processor:
                         image_path,
                         status="failed",
                         engine=result.engine,
+                        ocr_confidence=result.confidence,
                     )
                 except Exception as e:
                     self._trace("db.upsert_attempt", e)

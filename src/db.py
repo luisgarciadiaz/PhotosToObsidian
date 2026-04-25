@@ -42,6 +42,7 @@ def upsert_attempt(
     status: str,
     engine: str,
     note_path: Optional[Path] = None,
+    ocr_confidence: float = 0.0,
     db_path: Optional[Path] = None,
 ) -> None:
     if db_path is None:
@@ -67,21 +68,37 @@ def upsert_attempt(
     if row is None:
         cursor.execute(
             """
-            INSERT INTO processed_files 
-            (file_name, file_path, status, tries, last_tried_at, note_path, ocr_engine_used)
-            VALUES (?, ?, ?, 1, ?, ?, ?)
+            INSERT INTO processed_files
+            (file_name, file_path, status, tries, last_tried_at, note_path, ocr_engine_used, ocr_confidence)
+            VALUES (?, ?, ?, 1, ?, ?, ?, ?, ?)
             """,
-            (file_name, file_path_str, status, now, str(note_path) if note_path else None, engine),
+            (
+                file_name,
+                file_path_str,
+                status,
+                now,
+                str(note_path) if note_path else None,
+                engine,
+                ocr_confidence,
+            ),
         )
     else:
         record_id, current_tries = row
         cursor.execute(
             """
-            UPDATE processed_files 
-            SET status = ?, tries = ?, last_tried_at = ?, note_path = ?, ocr_engine_used = ?
+            UPDATE processed_files
+            SET status = ?, tries = ?, last_tried_at = ?, note_path = ?, ocr_engine_used = ?, ocr_confidence = ?
             WHERE id = ?
             """,
-            (status, current_tries + 1, now, str(note_path) if note_path else None, engine, record_id),
+            (
+                status,
+                current_tries + 1,
+                now,
+                str(note_path) if note_path else None,
+                engine,
+                ocr_confidence,
+                record_id,
+            ),
         )
 
     conn.commit()
@@ -124,7 +141,7 @@ def get_all_records(db_path: Optional[Path] = None) -> list[dict]:
 
     cursor.execute(
         """
-        SELECT file_name, status, tries, last_tried_at, note_path, ocr_engine_used
+        SELECT file_name, status, tries, last_tried_at, note_path, ocr_engine_used, ocr_confidence
         FROM processed_files
         ORDER BY last_tried_at DESC
         """
