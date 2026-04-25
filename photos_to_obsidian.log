@@ -665,3 +665,701 @@
 2026-04-25 13:17:19,548 INFO Processing: IMG_4202.PNG
 2026-04-25 13:17:19,549 INFO   Try #1
 2026-04-25 13:17:19,550 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:24,364 INFO   OCR succeeded (conf=80.4)
+2026-04-25 13:17:24,606 INFO   Note: 2026-04-25_IMG_4202.md
+2026-04-25 13:17:24,606 INFO   Renamed: IMG_4202.PNG.tobedeleted
+2026-04-25 13:17:24,607 INFO Processing: IMG_4203.PNG
+2026-04-25 13:17:24,609 INFO   Try #1
+2026-04-25 13:17:24,610 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:27,260 INFO   OCR succeeded (conf=84.5)
+2026-04-25 13:17:27,703 INFO   Note: 2026-04-25_IMG_4203.md
+2026-04-25 13:17:27,703 INFO   Renamed: IMG_4203.PNG.tobedeleted
+2026-04-25 13:17:27,704 INFO Processing: IMG_4204.PNG
+2026-04-25 13:17:27,705 INFO   Try #1
+2026-04-25 13:17:27,705 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:30,570 INFO   OCR succeeded (conf=84.4)
+2026-04-25 13:17:30,780 INFO   Note: 2026-04-25_IMG_4204.md
+2026-04-25 13:17:30,780 INFO   Renamed: IMG_4204.PNG.tobedeleted
+2026-04-25 13:17:30,781 INFO Processing: IMG_4205.PNG
+2026-04-25 13:17:30,782 INFO   Try #1
+2026-04-25 13:17:30,783 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:33,236 INFO   OCR succeeded (conf=79.5)
+2026-04-25 13:17:33,580 INFO   Note: 2026-04-25_IMG_4205.md
+2026-04-25 13:17:33,580 INFO   Renamed: IMG_4205.PNG.tobedeleted
+2026-04-25 13:17:33,581 INFO Processing: IMG_4206.PNG
+2026-04-25 13:17:33,582 INFO   Try #1
+2026-04-25 13:17:33,583 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:35,848 INFO   OCR succeeded (conf=84.7)
+2026-04-25 13:17:36,124 INFO   Note: 2026-04-25_IMG_4206.md
+2026-04-25 13:17:36,125 INFO   Renamed: IMG_4206.PNG.tobedeleted
+2026-04-25 13:17:36,126 INFO Processing: IMG_4207.PNG
+2026-04-25 13:17:36,127 INFO   Try #1
+2026-04-25 13:17:36,128 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:38,476 INFO   OCR succeeded (conf=83.7)
+2026-04-25 13:17:38,658 INFO   Note: 2026-04-25_IMG_4207.md
+2026-04-25 13:17:38,658 INFO   Renamed: IMG_4207.PNG.tobedeleted
+2026-04-25 13:17:38,659 INFO Processing: IMG_4208.PNG
+2026-04-25 13:17:38,660 INFO   Try #1
+2026-04-25 13:17:38,660 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:40,594 INFO   OCR succeeded (conf=82.1)
+2026-04-25 13:17:40,852 INFO   Note: 2026-04-25_IMG_4208.md
+2026-04-25 13:17:40,852 INFO   Renamed: IMG_4208.PNG.tobedeleted
+2026-04-25 13:17:40,853 INFO Processing: IMG_4209.PNG
+2026-04-25 13:17:40,854 INFO   Try #1
+2026-04-25 13:17:40,854 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:42,908 INFO   OCR succeeded (conf=87.1)
+2026-04-25 13:17:43,080 INFO   Note: 2026-04-25_IMG_4209.md
+2026-04-25 13:17:43,080 INFO   Renamed: IMG_4209.PNG.tobedeleted
+2026-04-25 13:17:43,081 INFO Processing: IMG_4210.PNG
+2026-04-25 13:17:43,082 INFO   Try #1
+2026-04-25 13:17:43,083 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:44,983 INFO   OCR succeeded (conf=85.0)
+2026-04-25 13:17:46,179 INFO   Note: 2026-04-25_IMG_4210.md
+2026-04-25 13:17:46,179 INFO   Renamed: IMG_4210.PNG.tobedeleted
+2026-04-25 13:17:46,180 INFO Processing: IMG_4211.PNG
+2026-04-25 13:17:46,181 INFO   Try #1
+2026-04-25 13:17:46,182 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:48,349 INFO   OCR succeeded (conf=79.6)
+2026-04-25 13:17:48,508 INFO   Note: 2026-04-25_IMG_4211.md
+2026-04-25 13:17:48,508 INFO   Renamed: IMG_4211.PNG.tobedeleted
+2026-04-25 13:17:48,509 INFO Processing: IMG_4212.PNG
+2026-04-25 13:17:48,510 INFO   Try #1
+2026-04-25 13:17:48,511 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:50,789 INFO   OCR succeeded (conf=85.2)
+2026-04-25 13:17:50,930 INFO   Note: 2026-04-25_IMG_4212.md
+2026-04-25 13:17:50,930 INFO   Renamed: IMG_4212.PNG.tobedeleted
+2026-04-25 13:17:50,931 INFO Processing: IMG_4213.PNG
+2026-04-25 13:17:50,932 INFO   Try #1
+2026-04-25 13:17:50,938 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:53,585 INFO   OCR succeeded (conf=90.0)
+2026-04-25 13:17:53,802 INFO   Note: 2026-04-25_IMG_4213.md
+2026-04-25 13:17:53,803 INFO   Renamed: IMG_4213.PNG.tobedeleted
+2026-04-25 13:17:53,806 INFO Processing: IMG_4214.PNG
+2026-04-25 13:17:53,809 INFO   Try #1
+2026-04-25 13:17:53,810 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:56,458 INFO   OCR succeeded (conf=87.5)
+2026-04-25 13:17:56,628 INFO   Note: 2026-04-25_IMG_4214.md
+2026-04-25 13:17:56,628 INFO   Renamed: IMG_4214.PNG.tobedeleted
+2026-04-25 13:17:56,628 INFO Processing: IMG_4215.PNG
+2026-04-25 13:17:56,630 INFO   Try #1
+2026-04-25 13:17:56,631 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:17:59,142 INFO   OCR succeeded (conf=88.7)
+2026-04-25 13:17:59,339 INFO   Note: 2026-04-25_IMG_4215.md
+2026-04-25 13:17:59,339 INFO   Renamed: IMG_4215.PNG.tobedeleted
+2026-04-25 13:17:59,340 INFO Processing: IMG_4216.PNG
+2026-04-25 13:17:59,341 INFO   Try #1
+2026-04-25 13:17:59,341 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:01,806 INFO   OCR succeeded (conf=84.7)
+2026-04-25 13:18:02,764 INFO   Note: 2026-04-25_IMG_4216.md
+2026-04-25 13:18:02,765 INFO   Renamed: IMG_4216.PNG.tobedeleted
+2026-04-25 13:18:02,765 INFO Processing: IMG_4217.PNG
+2026-04-25 13:18:02,767 INFO   Try #1
+2026-04-25 13:18:02,769 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:05,350 INFO   OCR succeeded (conf=88.6)
+2026-04-25 13:18:05,480 INFO   Note: 2026-04-25_IMG_4217.md
+2026-04-25 13:18:05,480 INFO   Renamed: IMG_4217.PNG.tobedeleted
+2026-04-25 13:18:05,482 INFO Processing: IMG_4218.PNG
+2026-04-25 13:18:05,483 INFO   Try #1
+2026-04-25 13:18:05,483 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:08,118 INFO   OCR succeeded (conf=90.9)
+2026-04-25 13:18:08,268 INFO   Note: 2026-04-25_IMG_4218.md
+2026-04-25 13:18:08,269 INFO   Renamed: IMG_4218.PNG.tobedeleted
+2026-04-25 13:18:08,270 INFO Processing: IMG_4219.PNG
+2026-04-25 13:18:08,270 INFO   Try #1
+2026-04-25 13:18:08,271 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:11,064 INFO   OCR succeeded (conf=89.3)
+2026-04-25 13:18:11,205 INFO   Note: 2026-04-25_IMG_4219.md
+2026-04-25 13:18:11,206 INFO   Renamed: IMG_4219.PNG.tobedeleted
+2026-04-25 13:18:11,207 INFO Processing: IMG_4220.PNG
+2026-04-25 13:18:11,208 INFO   Try #1
+2026-04-25 13:18:11,209 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:13,491 INFO   OCR succeeded (conf=83.6)
+2026-04-25 13:18:13,650 INFO   Note: 2026-04-25_IMG_4220.md
+2026-04-25 13:18:13,650 INFO   Renamed: IMG_4220.PNG.tobedeleted
+2026-04-25 13:18:13,650 INFO Processing: IMG_4221.PNG
+2026-04-25 13:18:13,651 INFO   Try #1
+2026-04-25 13:18:13,652 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:15,820 INFO   OCR succeeded (conf=77.7)
+2026-04-25 13:18:15,939 INFO   Note: 2026-04-25_IMG_4221.md
+2026-04-25 13:18:15,939 INFO   Renamed: IMG_4221.PNG.tobedeleted
+2026-04-25 13:18:15,941 INFO Processing: IMG_4222.PNG
+2026-04-25 13:18:15,941 INFO   Try #1
+2026-04-25 13:18:15,942 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:17,572 INFO   OCR succeeded (conf=76.8)
+2026-04-25 13:18:19,057 INFO   Note: 2026-04-25_IMG_4222.md
+2026-04-25 13:18:19,058 INFO   Renamed: IMG_4222.PNG.tobedeleted
+2026-04-25 13:18:19,058 INFO Processing: IMG_4223.PNG
+2026-04-25 13:18:19,059 INFO   Try #1
+2026-04-25 13:18:19,060 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:20,582 INFO   OCR succeeded (conf=78.0)
+2026-04-25 13:18:20,714 INFO   Note: 2026-04-25_IMG_4223.md
+2026-04-25 13:18:20,714 INFO   Renamed: IMG_4223.PNG.tobedeleted
+2026-04-25 13:18:20,716 INFO Processing: IMG_4224.PNG
+2026-04-25 13:18:20,717 INFO   Try #1
+2026-04-25 13:18:20,718 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:22,241 INFO   OCR succeeded (conf=77.0)
+2026-04-25 13:18:22,370 INFO   Note: 2026-04-25_IMG_4224.md
+2026-04-25 13:18:22,371 INFO   Renamed: IMG_4224.PNG.tobedeleted
+2026-04-25 13:18:22,371 INFO Processing: IMG_4225.PNG
+2026-04-25 13:18:22,373 INFO   Try #1
+2026-04-25 13:18:22,374 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:18:23,990 INFO   OCR succeeded (conf=80.2)
+2026-04-25 13:18:24,104 INFO   Note: 2026-04-25_IMG_4225.md
+2026-04-25 13:18:24,104 INFO   Renamed: IMG_4225.PNG.tobedeleted
+2026-04-25 13:18:24,105 INFO Processing stopped by user.
+2026-04-25 13:18:24,105 INFO Done. Processed=84, Failed=0, Skipped=296
+2026-04-25 13:19:58,539 INFO Found 296 image(s) to process.
+2026-04-25 13:19:58,540 INFO Processing: IMG_4226.PNG
+2026-04-25 13:19:58,542 INFO   Try #1
+2026-04-25 13:19:58,543 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:00,390 INFO   OCR succeeded (conf=77.3)
+2026-04-25 13:20:00,422 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:00,422 INFO     Traceback (most recent call last):
+2026-04-25 13:20:00,423 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:00,424 INFO         db.upsert_attempt(
+2026-04-25 13:20:00,424 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:00,431 INFO             image_path,
+2026-04-25 13:20:00,432 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:00,434 INFO         ...<3 lines>...
+2026-04-25 13:20:00,435 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:00,437 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:00,437 INFO         )
+2026-04-25 13:20:00,438 INFO         ^
+2026-04-25 13:20:00,439 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:00,440 INFO         cursor.execute(
+2026-04-25 13:20:00,441 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:00,442 INFO             """
+2026-04-25 13:20:00,443 INFO             ^^^
+2026-04-25 13:20:00,443 INFO         ...<12 lines>...
+2026-04-25 13:20:00,444 INFO             ),
+2026-04-25 13:20:00,445 INFO             ^^
+2026-04-25 13:20:00,446 INFO         )
+2026-04-25 13:20:00,447 INFO         ^
+2026-04-25 13:20:00,447 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:00,448 INFO   Note: 2026-04-25_IMG_4226.md
+2026-04-25 13:20:00,449 INFO   Renamed: IMG_4226.PNG.tobedeleted
+2026-04-25 13:20:00,455 INFO Processing: IMG_4227.PNG
+2026-04-25 13:20:00,457 INFO   Try #1
+2026-04-25 13:20:00,458 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:02,724 INFO   OCR succeeded (conf=77.5)
+2026-04-25 13:20:02,753 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:02,754 INFO     Traceback (most recent call last):
+2026-04-25 13:20:02,758 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:02,761 INFO         db.upsert_attempt(
+2026-04-25 13:20:02,762 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:02,763 INFO             image_path,
+2026-04-25 13:20:02,764 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:02,765 INFO         ...<3 lines>...
+2026-04-25 13:20:02,765 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:02,766 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:02,767 INFO         )
+2026-04-25 13:20:02,768 INFO         ^
+2026-04-25 13:20:02,769 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:02,770 INFO         cursor.execute(
+2026-04-25 13:20:02,771 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:02,771 INFO             """
+2026-04-25 13:20:02,778 INFO             ^^^
+2026-04-25 13:20:02,779 INFO         ...<12 lines>...
+2026-04-25 13:20:02,780 INFO             ),
+2026-04-25 13:20:02,781 INFO             ^^
+2026-04-25 13:20:02,782 INFO         )
+2026-04-25 13:20:02,783 INFO         ^
+2026-04-25 13:20:02,784 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:02,784 INFO   Note: 2026-04-25_IMG_4227.md
+2026-04-25 13:20:02,785 INFO   Renamed: IMG_4227.PNG.tobedeleted
+2026-04-25 13:20:02,786 INFO Processing: IMG_4228.PNG
+2026-04-25 13:20:02,787 INFO   Try #1
+2026-04-25 13:20:02,788 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:04,325 INFO   OCR succeeded (conf=82.8)
+2026-04-25 13:20:04,339 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:04,340 INFO     Traceback (most recent call last):
+2026-04-25 13:20:04,340 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:04,341 INFO         db.upsert_attempt(
+2026-04-25 13:20:04,341 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:04,342 INFO             image_path,
+2026-04-25 13:20:04,343 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:04,345 INFO         ...<3 lines>...
+2026-04-25 13:20:04,346 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:04,349 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:04,352 INFO         )
+2026-04-25 13:20:04,353 INFO         ^
+2026-04-25 13:20:04,354 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:04,355 INFO         cursor.execute(
+2026-04-25 13:20:04,357 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:04,358 INFO             """
+2026-04-25 13:20:04,359 INFO             ^^^
+2026-04-25 13:20:04,367 INFO         ...<12 lines>...
+2026-04-25 13:20:04,369 INFO             ),
+2026-04-25 13:20:04,371 INFO             ^^
+2026-04-25 13:20:04,375 INFO         )
+2026-04-25 13:20:04,386 INFO         ^
+2026-04-25 13:20:04,387 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:04,400 INFO   Note: 2026-04-25_IMG_4228.md
+2026-04-25 13:20:04,401 INFO   Renamed: IMG_4228.PNG.tobedeleted
+2026-04-25 13:20:04,402 INFO Processing: IMG_4229.PNG
+2026-04-25 13:20:04,404 INFO   Try #1
+2026-04-25 13:20:04,405 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:06,195 INFO   OCR succeeded (conf=78.1)
+2026-04-25 13:20:06,260 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:06,260 INFO     Traceback (most recent call last):
+2026-04-25 13:20:06,262 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:06,263 INFO         db.upsert_attempt(
+2026-04-25 13:20:06,264 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:06,265 INFO             image_path,
+2026-04-25 13:20:06,266 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:06,267 INFO         ...<3 lines>...
+2026-04-25 13:20:06,268 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:06,268 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:06,269 INFO         )
+2026-04-25 13:20:06,270 INFO         ^
+2026-04-25 13:20:06,276 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:06,277 INFO         cursor.execute(
+2026-04-25 13:20:06,277 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:06,278 INFO             """
+2026-04-25 13:20:06,280 INFO             ^^^
+2026-04-25 13:20:06,281 INFO         ...<12 lines>...
+2026-04-25 13:20:06,281 INFO             ),
+2026-04-25 13:20:06,282 INFO             ^^
+2026-04-25 13:20:06,283 INFO         )
+2026-04-25 13:20:06,284 INFO         ^
+2026-04-25 13:20:06,285 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:06,286 INFO   Note: 2026-04-25_IMG_4229.md
+2026-04-25 13:20:06,292 INFO   Renamed: IMG_4229.PNG.tobedeleted
+2026-04-25 13:20:06,293 INFO Processing: IMG_4230.PNG
+2026-04-25 13:20:06,295 INFO   Try #1
+2026-04-25 13:20:06,296 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:09,046 INFO   OCR succeeded (conf=81.9)
+2026-04-25 13:20:09,263 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:09,263 INFO     Traceback (most recent call last):
+2026-04-25 13:20:09,263 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:09,270 INFO         db.upsert_attempt(
+2026-04-25 13:20:09,282 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:09,283 INFO             image_path,
+2026-04-25 13:20:09,292 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:09,303 INFO         ...<3 lines>...
+2026-04-25 13:20:09,303 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:09,314 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:09,314 INFO         )
+2026-04-25 13:20:09,324 INFO         ^
+2026-04-25 13:20:09,325 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:09,327 INFO         cursor.execute(
+2026-04-25 13:20:09,331 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:09,332 INFO             """
+2026-04-25 13:20:09,348 INFO             ^^^
+2026-04-25 13:20:09,349 INFO         ...<12 lines>...
+2026-04-25 13:20:09,366 INFO             ),
+2026-04-25 13:20:09,367 INFO             ^^
+2026-04-25 13:20:09,368 INFO         )
+2026-04-25 13:20:09,385 INFO         ^
+2026-04-25 13:20:09,385 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:09,386 INFO   Note: 2026-04-25_IMG_4230.md
+2026-04-25 13:20:09,386 INFO   Renamed: IMG_4230.PNG.tobedeleted
+2026-04-25 13:20:09,387 INFO Processing: IMG_4231.PNG
+2026-04-25 13:20:09,399 INFO   Try #1
+2026-04-25 13:20:09,411 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:12,022 INFO   OCR succeeded (conf=83.4)
+2026-04-25 13:20:12,048 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:12,049 INFO     Traceback (most recent call last):
+2026-04-25 13:20:12,050 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:12,051 INFO         db.upsert_attempt(
+2026-04-25 13:20:12,052 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:12,053 INFO             image_path,
+2026-04-25 13:20:12,054 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:12,062 INFO         ...<3 lines>...
+2026-04-25 13:20:12,063 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:12,064 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:12,065 INFO         )
+2026-04-25 13:20:12,066 INFO         ^
+2026-04-25 13:20:12,067 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:12,068 INFO         cursor.execute(
+2026-04-25 13:20:12,069 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:12,076 INFO             """
+2026-04-25 13:20:12,077 INFO             ^^^
+2026-04-25 13:20:12,078 INFO         ...<12 lines>...
+2026-04-25 13:20:12,079 INFO             ),
+2026-04-25 13:20:12,079 INFO             ^^
+2026-04-25 13:20:12,080 INFO         )
+2026-04-25 13:20:12,081 INFO         ^
+2026-04-25 13:20:12,082 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:12,082 INFO   Note: 2026-04-25_IMG_4231.md
+2026-04-25 13:20:12,083 INFO   Renamed: IMG_4231.PNG.tobedeleted
+2026-04-25 13:20:12,084 INFO Processing: IMG_4232.PNG
+2026-04-25 13:20:12,085 INFO   Try #1
+2026-04-25 13:20:12,092 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:14,104 INFO   OCR succeeded (conf=84.9)
+2026-04-25 13:20:14,119 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:14,119 INFO     Traceback (most recent call last):
+2026-04-25 13:20:14,119 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:14,120 INFO         db.upsert_attempt(
+2026-04-25 13:20:14,122 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:14,124 INFO             image_path,
+2026-04-25 13:20:14,125 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:14,137 INFO         ...<3 lines>...
+2026-04-25 13:20:14,140 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:14,153 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:14,155 INFO         )
+2026-04-25 13:20:14,160 INFO         ^
+2026-04-25 13:20:14,165 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:14,168 INFO         cursor.execute(
+2026-04-25 13:20:14,171 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:14,173 INFO             """
+2026-04-25 13:20:14,174 INFO             ^^^
+2026-04-25 13:20:14,179 INFO         ...<12 lines>...
+2026-04-25 13:20:14,182 INFO             ),
+2026-04-25 13:20:14,184 INFO             ^^
+2026-04-25 13:20:14,186 INFO         )
+2026-04-25 13:20:14,187 INFO         ^
+2026-04-25 13:20:14,189 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:14,191 INFO   Note: 2026-04-25_IMG_4232.md
+2026-04-25 13:20:14,196 INFO   Renamed: IMG_4232.PNG.tobedeleted
+2026-04-25 13:20:14,198 INFO Processing: IMG_4233.PNG
+2026-04-25 13:20:14,202 INFO   Try #1
+2026-04-25 13:20:14,203 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:16,772 INFO   OCR succeeded (conf=85.7)
+2026-04-25 13:20:16,928 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:16,929 INFO     Traceback (most recent call last):
+2026-04-25 13:20:16,934 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:16,935 INFO         db.upsert_attempt(
+2026-04-25 13:20:16,937 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:16,938 INFO             image_path,
+2026-04-25 13:20:16,939 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:16,940 INFO         ...<3 lines>...
+2026-04-25 13:20:16,941 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:16,948 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:16,949 INFO         )
+2026-04-25 13:20:16,950 INFO         ^
+2026-04-25 13:20:16,951 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:16,952 INFO         cursor.execute(
+2026-04-25 13:20:16,953 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:16,954 INFO             """
+2026-04-25 13:20:16,956 INFO             ^^^
+2026-04-25 13:20:16,965 INFO         ...<12 lines>...
+2026-04-25 13:20:16,967 INFO             ),
+2026-04-25 13:20:16,968 INFO             ^^
+2026-04-25 13:20:16,969 INFO         )
+2026-04-25 13:20:16,969 INFO         ^
+2026-04-25 13:20:16,971 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:16,972 INFO   Note: 2026-04-25_IMG_4233.md
+2026-04-25 13:20:16,974 INFO   Renamed: IMG_4233.PNG.tobedeleted
+2026-04-25 13:20:16,979 INFO Processing: IMG_4234.PNG
+2026-04-25 13:20:16,982 INFO   Try #1
+2026-04-25 13:20:16,982 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:19,066 INFO   OCR succeeded (conf=84.3)
+2026-04-25 13:20:19,164 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:19,164 INFO     Traceback (most recent call last):
+2026-04-25 13:20:19,164 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:19,165 INFO         db.upsert_attempt(
+2026-04-25 13:20:19,166 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:19,167 INFO             image_path,
+2026-04-25 13:20:19,175 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:19,177 INFO         ...<3 lines>...
+2026-04-25 13:20:19,178 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:19,180 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:19,180 INFO         )
+2026-04-25 13:20:19,182 INFO         ^
+2026-04-25 13:20:19,185 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:19,185 INFO         cursor.execute(
+2026-04-25 13:20:19,186 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:19,186 INFO             """
+2026-04-25 13:20:19,190 INFO             ^^^
+2026-04-25 13:20:19,194 INFO         ...<12 lines>...
+2026-04-25 13:20:19,196 INFO             ),
+2026-04-25 13:20:19,197 INFO             ^^
+2026-04-25 13:20:19,198 INFO         )
+2026-04-25 13:20:19,200 INFO         ^
+2026-04-25 13:20:19,201 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:19,202 INFO   Note: 2026-04-25_IMG_4234.md
+2026-04-25 13:20:19,204 INFO   Renamed: IMG_4234.PNG.tobedeleted
+2026-04-25 13:20:19,210 INFO Processing: IMG_4235.PNG
+2026-04-25 13:20:19,213 INFO   Try #1
+2026-04-25 13:20:19,216 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:20,531 INFO   OCR succeeded (conf=82.8)
+2026-04-25 13:20:20,631 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:20,631 INFO     Traceback (most recent call last):
+2026-04-25 13:20:20,631 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:20,632 INFO         db.upsert_attempt(
+2026-04-25 13:20:20,633 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:20,634 INFO             image_path,
+2026-04-25 13:20:20,639 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:20,641 INFO         ...<3 lines>...
+2026-04-25 13:20:20,642 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:20,642 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:20,643 INFO         )
+2026-04-25 13:20:20,644 INFO         ^
+2026-04-25 13:20:20,645 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:20,646 INFO         cursor.execute(
+2026-04-25 13:20:20,647 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:20,648 INFO             """
+2026-04-25 13:20:20,649 INFO             ^^^
+2026-04-25 13:20:20,650 INFO         ...<12 lines>...
+2026-04-25 13:20:20,653 INFO             ),
+2026-04-25 13:20:20,658 INFO             ^^
+2026-04-25 13:20:20,658 INFO         )
+2026-04-25 13:20:20,659 INFO         ^
+2026-04-25 13:20:20,660 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:20,661 INFO   Note: 2026-04-25_IMG_4235.md
+2026-04-25 13:20:20,662 INFO   Renamed: IMG_4235.PNG.tobedeleted
+2026-04-25 13:20:20,663 INFO Processing: IMG_4236.PNG
+2026-04-25 13:20:20,665 INFO   Try #1
+2026-04-25 13:20:20,665 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:22,832 INFO   OCR succeeded (conf=80.0)
+2026-04-25 13:20:22,851 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:22,852 INFO     Traceback (most recent call last):
+2026-04-25 13:20:22,854 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:22,856 INFO         db.upsert_attempt(
+2026-04-25 13:20:22,856 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:22,857 INFO             image_path,
+2026-04-25 13:20:22,858 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:22,859 INFO         ...<3 lines>...
+2026-04-25 13:20:22,859 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:22,860 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:22,861 INFO         )
+2026-04-25 13:20:22,862 INFO         ^
+2026-04-25 13:20:22,863 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:22,867 INFO         cursor.execute(
+2026-04-25 13:20:22,869 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:22,871 INFO             """
+2026-04-25 13:20:22,872 INFO             ^^^
+2026-04-25 13:20:22,873 INFO         ...<12 lines>...
+2026-04-25 13:20:22,874 INFO             ),
+2026-04-25 13:20:22,875 INFO             ^^
+2026-04-25 13:20:22,876 INFO         )
+2026-04-25 13:20:22,876 INFO         ^
+2026-04-25 13:20:22,877 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:22,878 INFO   Note: 2026-04-25_IMG_4236.md
+2026-04-25 13:20:22,879 INFO   Renamed: IMG_4236.PNG.tobedeleted
+2026-04-25 13:20:22,882 INFO Processing: IMG_4237.PNG
+2026-04-25 13:20:22,886 INFO   Try #1
+2026-04-25 13:20:22,887 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:24,623 INFO   OCR succeeded (conf=81.0)
+2026-04-25 13:20:24,638 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:24,638 INFO     Traceback (most recent call last):
+2026-04-25 13:20:24,639 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:24,640 INFO         db.upsert_attempt(
+2026-04-25 13:20:24,642 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:24,643 INFO             image_path,
+2026-04-25 13:20:24,644 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:24,652 INFO         ...<3 lines>...
+2026-04-25 13:20:24,653 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:24,654 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:24,655 INFO         )
+2026-04-25 13:20:24,656 INFO         ^
+2026-04-25 13:20:24,657 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:24,658 INFO         cursor.execute(
+2026-04-25 13:20:24,664 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:24,665 INFO             """
+2026-04-25 13:20:24,666 INFO             ^^^
+2026-04-25 13:20:24,667 INFO         ...<12 lines>...
+2026-04-25 13:20:24,668 INFO             ),
+2026-04-25 13:20:24,669 INFO             ^^
+2026-04-25 13:20:24,670 INFO         )
+2026-04-25 13:20:24,671 INFO         ^
+2026-04-25 13:20:24,672 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:24,673 INFO   Note: 2026-04-25_IMG_4237.md
+2026-04-25 13:20:24,679 INFO   Renamed: IMG_4237.PNG.tobedeleted
+2026-04-25 13:20:24,680 INFO Processing: IMG_4238.PNG
+2026-04-25 13:20:24,682 INFO   Try #1
+2026-04-25 13:20:24,682 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:27,574 INFO   OCR succeeded (conf=87.3)
+2026-04-25 13:20:27,594 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:27,594 INFO     Traceback (most recent call last):
+2026-04-25 13:20:27,594 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:27,595 INFO         db.upsert_attempt(
+2026-04-25 13:20:27,596 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:27,597 INFO             image_path,
+2026-04-25 13:20:27,598 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:27,599 INFO         ...<3 lines>...
+2026-04-25 13:20:27,600 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:27,606 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:27,607 INFO         )
+2026-04-25 13:20:27,608 INFO         ^
+2026-04-25 13:20:27,609 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:27,610 INFO         cursor.execute(
+2026-04-25 13:20:27,611 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:27,612 INFO             """
+2026-04-25 13:20:27,613 INFO             ^^^
+2026-04-25 13:20:27,614 INFO         ...<12 lines>...
+2026-04-25 13:20:27,615 INFO             ),
+2026-04-25 13:20:27,615 INFO             ^^
+2026-04-25 13:20:27,621 INFO         )
+2026-04-25 13:20:27,622 INFO         ^
+2026-04-25 13:20:27,624 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:27,624 INFO   Note: 2026-04-25_IMG_4238.md
+2026-04-25 13:20:27,625 INFO   Renamed: IMG_4238.PNG.tobedeleted
+2026-04-25 13:20:27,626 INFO Processing: IMG_4239.PNG
+2026-04-25 13:20:27,627 INFO   Try #1
+2026-04-25 13:20:27,628 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:29,448 INFO   OCR succeeded (conf=83.8)
+2026-04-25 13:20:29,538 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:29,568 INFO     Traceback (most recent call last):
+2026-04-25 13:20:29,568 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:29,572 INFO         db.upsert_attempt(
+2026-04-25 13:20:29,576 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:29,576 INFO             image_path,
+2026-04-25 13:20:29,578 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:29,578 INFO         ...<3 lines>...
+2026-04-25 13:20:29,579 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:29,580 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:29,581 INFO         )
+2026-04-25 13:20:29,581 INFO         ^
+2026-04-25 13:20:29,582 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:29,584 INFO         cursor.execute(
+2026-04-25 13:20:29,592 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:29,594 INFO             """
+2026-04-25 13:20:29,594 INFO             ^^^
+2026-04-25 13:20:29,596 INFO         ...<12 lines>...
+2026-04-25 13:20:29,596 INFO             ),
+2026-04-25 13:20:29,596 INFO             ^^
+2026-04-25 13:20:29,597 INFO         )
+2026-04-25 13:20:29,598 INFO         ^
+2026-04-25 13:20:29,599 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:29,600 INFO   Note: 2026-04-25_IMG_4239.md
+2026-04-25 13:20:29,606 INFO   Renamed: IMG_4239.PNG.tobedeleted
+2026-04-25 13:20:29,607 INFO Processing: IMG_4240.PNG
+2026-04-25 13:20:29,608 INFO   Try #1
+2026-04-25 13:20:29,609 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:32,332 INFO   OCR succeeded (conf=85.7)
+2026-04-25 13:20:32,411 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:32,411 INFO     Traceback (most recent call last):
+2026-04-25 13:20:32,411 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:32,418 INFO         db.upsert_attempt(
+2026-04-25 13:20:32,419 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:32,420 INFO             image_path,
+2026-04-25 13:20:32,422 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:32,422 INFO         ...<3 lines>...
+2026-04-25 13:20:32,423 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:32,424 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:32,425 INFO         )
+2026-04-25 13:20:32,426 INFO         ^
+2026-04-25 13:20:32,427 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:32,427 INFO         cursor.execute(
+2026-04-25 13:20:32,436 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:32,436 INFO             """
+2026-04-25 13:20:32,437 INFO             ^^^
+2026-04-25 13:20:32,442 INFO         ...<12 lines>...
+2026-04-25 13:20:32,443 INFO             ),
+2026-04-25 13:20:32,444 INFO             ^^
+2026-04-25 13:20:32,449 INFO         )
+2026-04-25 13:20:32,451 INFO         ^
+2026-04-25 13:20:32,452 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:32,453 INFO   Note: 2026-04-25_IMG_4240.md
+2026-04-25 13:20:32,453 INFO   Renamed: IMG_4240.PNG.tobedeleted
+2026-04-25 13:20:32,454 INFO Processing: IMG_4241.PNG
+2026-04-25 13:20:32,455 INFO   Try #1
+2026-04-25 13:20:32,456 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:34,991 INFO   OCR succeeded (conf=81.0)
+2026-04-25 13:20:35,006 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:35,006 INFO     Traceback (most recent call last):
+2026-04-25 13:20:35,006 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:35,007 INFO         db.upsert_attempt(
+2026-04-25 13:20:35,007 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:35,008 INFO             image_path,
+2026-04-25 13:20:35,009 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:35,010 INFO         ...<3 lines>...
+2026-04-25 13:20:35,011 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:35,012 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:35,013 INFO         )
+2026-04-25 13:20:35,014 INFO         ^
+2026-04-25 13:20:35,015 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:35,016 INFO         cursor.execute(
+2026-04-25 13:20:35,017 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:35,017 INFO             """
+2026-04-25 13:20:35,018 INFO             ^^^
+2026-04-25 13:20:35,019 INFO         ...<12 lines>...
+2026-04-25 13:20:35,021 INFO             ),
+2026-04-25 13:20:35,021 INFO             ^^
+2026-04-25 13:20:35,022 INFO         )
+2026-04-25 13:20:35,023 INFO         ^
+2026-04-25 13:20:35,024 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:35,025 INFO   Note: 2026-04-25_IMG_4241.md
+2026-04-25 13:20:35,026 INFO   Renamed: IMG_4241.PNG.tobedeleted
+2026-04-25 13:20:35,032 INFO Processing: IMG_4242.PNG
+2026-04-25 13:20:35,036 INFO   Try #1
+2026-04-25 13:20:35,037 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:37,643 INFO   OCR succeeded (conf=82.2)
+2026-04-25 13:20:37,675 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:37,676 INFO     Traceback (most recent call last):
+2026-04-25 13:20:37,676 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:37,677 INFO         db.upsert_attempt(
+2026-04-25 13:20:37,678 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:37,679 INFO             image_path,
+2026-04-25 13:20:37,680 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:37,681 INFO         ...<3 lines>...
+2026-04-25 13:20:37,682 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:37,683 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:37,683 INFO         )
+2026-04-25 13:20:37,684 INFO         ^
+2026-04-25 13:20:37,685 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:37,686 INFO         cursor.execute(
+2026-04-25 13:20:37,687 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:37,691 INFO             """
+2026-04-25 13:20:37,692 INFO             ^^^
+2026-04-25 13:20:37,693 INFO         ...<12 lines>...
+2026-04-25 13:20:37,694 INFO             ),
+2026-04-25 13:20:37,695 INFO             ^^
+2026-04-25 13:20:37,696 INFO         )
+2026-04-25 13:20:37,697 INFO         ^
+2026-04-25 13:20:37,698 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:37,698 INFO   Note: 2026-04-25_IMG_4242.md
+2026-04-25 13:20:37,699 INFO   Renamed: IMG_4242.PNG.tobedeleted
+2026-04-25 13:20:37,701 INFO Processing: IMG_4243.PNG
+2026-04-25 13:20:37,703 INFO   Try #1
+2026-04-25 13:20:37,703 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:40,280 INFO   OCR succeeded (conf=80.3)
+2026-04-25 13:20:40,299 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:40,299 INFO     Traceback (most recent call last):
+2026-04-25 13:20:40,299 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:40,300 INFO         db.upsert_attempt(
+2026-04-25 13:20:40,301 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:40,302 INFO             image_path,
+2026-04-25 13:20:40,303 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:40,310 INFO         ...<3 lines>...
+2026-04-25 13:20:40,311 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:40,312 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:40,313 INFO         )
+2026-04-25 13:20:40,314 INFO         ^
+2026-04-25 13:20:40,314 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:40,315 INFO         cursor.execute(
+2026-04-25 13:20:40,316 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:40,317 INFO             """
+2026-04-25 13:20:40,318 INFO             ^^^
+2026-04-25 13:20:40,319 INFO         ...<12 lines>...
+2026-04-25 13:20:40,320 INFO             ),
+2026-04-25 13:20:40,327 INFO             ^^
+2026-04-25 13:20:40,328 INFO         )
+2026-04-25 13:20:40,329 INFO         ^
+2026-04-25 13:20:40,330 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:40,330 INFO   Note: 2026-04-25_IMG_4243.md
+2026-04-25 13:20:40,331 INFO   Renamed: IMG_4243.PNG.tobedeleted
+2026-04-25 13:20:40,332 INFO Processing: IMG_4244.PNG
+2026-04-25 13:20:40,334 INFO   Try #1
+2026-04-25 13:20:40,334 INFO   Engine: Tesseract (eng+spa)
+2026-04-25 13:20:42,970 INFO   OCR succeeded (conf=81.9)
+2026-04-25 13:20:42,985 INFO   [db.upsert_attempt] OperationalError: 9 values for 8 columns
+2026-04-25 13:20:42,985 INFO     Traceback (most recent call last):
+2026-04-25 13:20:42,986 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\processor.py", line 147, in run
+2026-04-25 13:20:42,987 INFO         db.upsert_attempt(
+2026-04-25 13:20:42,989 INFO         ~~~~~~~~~~~~~~~~~^
+2026-04-25 13:20:42,996 INFO             image_path,
+2026-04-25 13:20:42,998 INFO             ^^^^^^^^^^^
+2026-04-25 13:20:42,999 INFO         ...<3 lines>...
+2026-04-25 13:20:43,000 INFO             ocr_confidence=result.confidence,
+2026-04-25 13:20:43,001 INFO             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-25 13:20:43,002 INFO         )
+2026-04-25 13:20:43,003 INFO         ^
+2026-04-25 13:20:43,003 INFO       File "v:\Git\luisgarciadiaz\PhotosToObsidian\src\db.py", line 72, in upsert_attempt
+2026-04-25 13:20:43,011 INFO         cursor.execute(
+2026-04-25 13:20:43,012 INFO         ~~~~~~~~~~~~~~^
+2026-04-25 13:20:43,013 INFO             """
+2026-04-25 13:20:43,014 INFO             ^^^
+2026-04-25 13:20:43,014 INFO         ...<12 lines>...
+2026-04-25 13:20:43,015 INFO             ),
+2026-04-25 13:20:43,016 INFO             ^^
+2026-04-25 13:20:43,017 INFO         )
+2026-04-25 13:20:43,018 INFO         ^
+2026-04-25 13:20:43,019 INFO     sqlite3.OperationalError: 9 values for 8 columns
+2026-04-25 13:20:43,020 INFO   Note: 2026-04-25_IMG_4244.md
+2026-04-25 13:20:43,026 INFO   Renamed: IMG_4244.PNG.tobedeleted
+2026-04-25 13:20:43,027 INFO Processing: IMG_4245.PNG
+2026-04-25 13:20:43,029 INFO   Try #1
+2026-04-25 13:20:43,029 INFO   Engine: Tesseract (eng+spa)

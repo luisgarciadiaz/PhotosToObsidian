@@ -17,10 +17,8 @@ def init_db(db_path: Optional[Path] = None) -> None:
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    cursor.execute("""DROP TABLE IF EXISTS processed_files""")
-
     cursor.execute("""
-        CREATE TABLE processed_files (
+        CREATE TABLE IF NOT EXISTS processed_files (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             file_name TEXT NOT NULL,
             file_path TEXT NOT NULL,
@@ -32,6 +30,11 @@ def init_db(db_path: Optional[Path] = None) -> None:
             ocr_confidence REAL
         )
     """)
+
+    try:
+        cursor.execute("SELECT ocr_confidence FROM processed_files LIMIT 1")
+    except sqlite3.OperationalError:
+        cursor.execute("ALTER TABLE processed_files ADD COLUMN ocr_confidence REAL")
 
     conn.commit()
     conn.close()
@@ -136,30 +139,43 @@ def get_all_records(db_path: Optional[Path] = None) -> list[dict]:
     if not db_path.exists():
         return []
 
+    init_db(db_path)
+
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    cursor.execute(
-        """
-        SELECT file_name, status, tries, last_tried_at, note_path, ocr_engine_used, ocr_confidence
-        FROM processed_files
-        ORDER BY last_tried_at DESC
-        """
-    )
+    try:
+        cursor.execute("SELECT ocr_confidence FROM processed_files LIMIT 1")
+        has_conf = True
+    except sqlite3.OperationalError:
+        has_conf = False
+        cursor.execute("ALTER TABLE processed_files ADD COLUMN ocr_confidence REAL")
+
+    if has_conf:
+        cols = "file_name, status, tries, last_tried_at, note_path, ocr_engine_used, ocr_confidence"
+    else:
+        cols = "file_name, status, tries, last_tried_at, note_path, ocr_engine_used"
+
+    cursor.execute(f"SELECT {cols} FROM processed_files ORDER BY last_tried_at DESC")
 
     rows = cursor.fetchall()
     conn.close()
 
     records = []
     for row in rows:
-        records.append({
+        rec = {
             "file_name": row[0],
             "status": row[1],
             "tries": row[2],
             "last_tried_at": row[3],
             "note_path": row[4],
             "ocr_engine_used": row[5],
-        })
+        }
+        if has_conf and len(row) > 6:
+            rec["ocr_confidence"] = row[6]
+        else:
+            rec["ocr_confidence"] = 0.0
+        records.append(rec)
 
     return records
 

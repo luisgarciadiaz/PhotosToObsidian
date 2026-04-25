@@ -262,7 +262,7 @@ class HistoryTab(ttk.Frame):
         col_row = ttk.Frame(body)
         col_row.pack(fill="both", expand=True)
 
-        columns = ("file_name", "status", "tries", "engine", "last_tried")
+        columns = ("file_name", "status", "tries", "engine", "conf", "last_tried")
         gui.history_tree = ttk.Treeview(
             col_row,
             columns=columns,
@@ -275,13 +275,15 @@ class HistoryTab(ttk.Frame):
         gui.history_tree.heading("status", text="Status")
         gui.history_tree.heading("tries", text="Tries")
         gui.history_tree.heading("engine", text="Engine")
+        gui.history_tree.heading("conf", text="Conf %")
         gui.history_tree.heading("last_tried", text="Last Tried")
 
         gui.history_tree.column("file_name", width=180)
-        gui.history_tree.column("status", width=80)
-        gui.history_tree.column("tries", width=50)
-        gui.history_tree.column("engine", width=90)
-        gui.history_tree.column("last_tried", width=170)
+        gui.history_tree.column("status", width=70)
+        gui.history_tree.column("tries", width=45)
+        gui.history_tree.column("engine", width=80)
+        gui.history_tree.column("conf", width=60)
+        gui.history_tree.column("last_tried", width=150)
 
         gui.history_tree.tag_configure("success", background="#e8f5e9")
         gui.history_tree.tag_configure("failed", background="#ffebee")
@@ -450,6 +452,7 @@ class GUI:
                     status,
                     record.get("tries", ""),
                     record.get("ocr_engine_used", ""),
+                    record.get("ocr_confidence", 0.0),
                     record.get("last_tried_at", ""),
                 ),
             )
