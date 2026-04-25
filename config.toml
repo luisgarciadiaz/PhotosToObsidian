@@ -8,10 +8,9 @@ confidence_threshold = 30
 
 [note]
 tag = "photo-import"
-embed_image = true
 date_format = "%Y-%m-%d"
 
 [ollama]
-model = "gemma4"
+model = "llava"
 base_url = "http://localhost:11434"
 timeout = 60

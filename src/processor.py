@@ -38,7 +38,6 @@ class Processor:
         ocr_language: str,
         ocr_confidence_threshold: int,
         note_tag: str,
-        note_embed_image: bool,
         note_date_format: str,
         ollama_model: str,
         ollama_base_url: str,
@@ -50,7 +49,6 @@ class Processor:
         self.ocr_language = ocr_language
         self.ocr_confidence_threshold = ocr_confidence_threshold
         self.note_tag = note_tag
-        self.note_embed_image = note_embed_image
         self.note_date_format = note_date_format
         self.ollama_model = ollama_model
         self.ollama_base_url = ollama_base_url
@@ -132,7 +130,6 @@ class Processor:
                         result,
                         self.obsidian_vault,
                         tag=self.note_tag,
-                        embed_image=self.note_embed_image,
                         date_format=self.note_date_format,
                     )
                 except Exception as e:
@@ -201,7 +198,6 @@ def run(cfg: config.Config, status_callback: Optional[Callable[[str], None]] = N
         ocr_language=cfg.ocr_language,
         ocr_confidence_threshold=cfg.ocr_confidence_threshold,
         note_tag=cfg.note_tag,
-        note_embed_image=cfg.note_embed_image,
         note_date_format=cfg.note_date_format,
         ollama_model=cfg.ollama_model,
         ollama_base_url=cfg.ollama_base_url,

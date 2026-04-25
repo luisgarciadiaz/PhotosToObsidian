@@ -133,14 +133,6 @@ class SettingsTab(ttk.Frame):
             side="left", padx=(6, 0)
         )
 
-        gui.embed_image_var = BooleanVar()
-        Checkbutton(
-            col,
-            text="Embed image in note (![[...]])",
-            variable=gui.embed_image_var,
-            font=("Segoe UI", 9),
-        ).pack(anchor="w", pady=(8, 0))
-
         ttk.Separator(col, orient="horizontal").pack(fill="x", pady=(8, 0))
         ttk.Button(
             col,
@@ -386,7 +378,6 @@ class GUI:
         self.obsidian_vault_var.set(str(self.cfg.obsidian_vault))
         self.ocr_language_var.set(self.cfg.ocr_language)
         self.confidence_var.set(str(self.cfg.ocr_confidence_threshold))
-        self.embed_image_var.set(self.cfg.note_embed_image)
         self.ollama_base_url_var.set(self.cfg.ollama_base_url)
         self.ollama_model_var.set(self.cfg.ollama_model)
         self.ollama_timeout_var.set(str(self.cfg.ollama_timeout))
@@ -407,7 +398,6 @@ class GUI:
             self.cfg.obsidian_vault = Path(self.obsidian_vault_var.get())
             self.cfg.ocr_language = self.ocr_language_var.get()
             self.cfg.ocr_confidence_threshold = int(self.confidence_var.get())
-            self.cfg.note_embed_image = bool(self.embed_image_var.get())
 
             config.save_config(self.cfg)
             self._log("Settings saved.")
@@ -474,7 +464,6 @@ class GUI:
         self.cfg.obsidian_vault = Path(self.obsidian_vault_var.get())
         self.cfg.ocr_language = self.ocr_language_var.get()
         self.cfg.ocr_confidence_threshold = int(self.confidence_var.get())
-        self.cfg.note_embed_image = bool(self.embed_image_var.get())
         self.cfg.ollama_base_url = self.ollama_base_url_var.get()
         self.cfg.ollama_model = self.ollama_model_var.get()
         self.cfg.ollama_timeout = int(self.ollama_timeout_var.get())
@@ -502,7 +491,6 @@ class GUI:
                 ocr_language=self.cfg.ocr_language,
                 ocr_confidence_threshold=self.cfg.ocr_confidence_threshold,
                 note_tag=self.cfg.note_tag,
-                note_embed_image=self.cfg.note_embed_image,
                 note_date_format=self.cfg.note_date_format,
                 ollama_model=self.cfg.ollama_model,
                 ollama_base_url=self.cfg.ollama_base_url,

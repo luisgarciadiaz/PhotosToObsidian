@@ -17,8 +17,10 @@ def init_db(db_path: Optional[Path] = None) -> None:
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
+    cursor.execute("""DROP TABLE IF EXISTS processed_files""")
+
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS processed_files (
+        CREATE TABLE processed_files (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             file_name TEXT NOT NULL,
             file_path TEXT NOT NULL,
@@ -26,7 +28,8 @@ def init_db(db_path: Optional[Path] = None) -> None:
             tries INTEGER NOT NULL,
             last_tried_at TEXT NOT NULL,
             note_path TEXT,
-            ocr_engine_used TEXT
+            ocr_engine_used TEXT,
+            ocr_confidence REAL
         )
     """)
 
