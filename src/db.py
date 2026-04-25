@@ -73,7 +73,7 @@ def upsert_attempt(
             """
             INSERT INTO processed_files
             (file_name, file_path, status, tries, last_tried_at, note_path, ocr_engine_used, ocr_confidence)
-            VALUES (?, ?, ?, 1, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, 1, ?, ?, ?, ?)
             """,
             (
                 file_name,
